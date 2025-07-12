@@ -123,3 +123,120 @@ body {
 .hero-button:hover {
     background-color: rgba(77, 71, 255, 0.9);
 }
+
+/* Contact Form Section */
+.contact-form-section {
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 48px 0;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 517px;
+}
+
+.contact-title {
+    font-family: 'Raleway', Helvetica;
+    font-weight: 700;
+    font-size: 42px;
+    color: #252432;
+    line-height: 1.2;
+}
+
+.contact-description {
+    font-family: 'Raleway', Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    line-height: 30px;
+}
+
+.contact-button {
+    background-color: #4d47ff;
+    border-radius: 10px;
+    padding: 12px 36px;
+    height: 48px;
+    border: none;
+    font-family: 'Raleway', Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: rgba(77, 71, 255, 0.9);
+}
+
+.contact-image {
+    width: auto;
+    height: auto;
+    max-width: 403px;
+    max-height: 328px;
+    object-fit: contain;
+}
+
+/* Action Section */
+.action-section {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 20px;
+}
+
+.action-card {
+    width: 100%;
+    padding: 50px 80px;
+    background-color: rgba(77, 71, 255, 0.1);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.action-title {
+    font-family: 'Raleway', Helvetica;
+    font-weight: 700;
+    font-size: 38px;
+    color: #252432;
+    text-align: center;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    align-items: center;
+}
+
+.stat-value {
+    font-family: 'Inter', Helvetica;
+    font-weight: 700;
+    font-size: 80px;
+    color: var(--primary-color);
+}
+
+.stat-label {
+    font-family: 'Inter', Helvetica;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+}
