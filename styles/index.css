@@ -1,0 +1,125 @@
+/* CSS Variables */
+:root {
+    --primary-color: rgba(78, 71, 255, 1);
+    --body-base-font-family: "Inter", Helvetica;
+    --body-base-font-size: 16px;
+    --body-base-font-weight: 400;
+    --body-base-line-height: 140%;
+    --body-strong-font-weight: 600;
+    --heading-font-family: "Inter", Helvetica;
+    --heading-font-size: 24px;
+    --heading-font-weight: 600;
+    --heading-line-height: 120%;
+    --paragraph-font-family: "Inter", Helvetica;
+    --paragraph-font-size: 16px;
+    --paragraph-font-weight: 400;
+    --paragraph-line-height: 150%;
+}
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-base-font-family);
+    font-size: var(--body-base-font-size);
+    font-weight: var(--body-base-font-weight);
+    line-height: var(--body-base-line-height);
+    background-color: #f5f8ff;
+}
+
+.main-container {
+    background-color: #f5f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+.features-section {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(78, 71, 255, 0.01) 0%, rgba(78, 71, 255, 0.01) 100%), url('./img/Hero-bg.png') 50% 50% / cover;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-family: 'Inter', Helvetica;
+    font-weight: 900;
+    color: var(--primary-color);
+    font-size: 34px;
+    line-height: 51px;
+}
+
+.nav-button {
+    height: 48px;
+    padding: 12px 36px;
+    background-color: #4d47ff;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Raleway', Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: rgba(77, 71, 255, 0.9);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 905px;
+    gap: 37px;
+    margin-bottom: 152px;
+    text-align: center;
+}
+
+.hero-title {
+    font-family: 'Raleway', Helvetica;
+    font-weight: 700;
+    color: #252432;
+    font-size: 65px;
+    line-height: normal;
+}
+
+.hero-button {
+    height: 48px;
+    padding: 12px 36px;
+    background-color: #4d47ff;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Raleway', Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: rgba(77, 71, 255, 0.9);
+}
