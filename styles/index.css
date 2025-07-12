@@ -338,3 +338,343 @@ stats-container {
     gap: 2px;
     flex: 1;
 }
+
+.reviewer-name {
+    font-family: var(--body-base-font-family);
+    font-weight: var(--body-strong-font-weight);
+    color: #757575;
+    font-size: var(--body-base-font-size);
+    line-height: var(--body-base-line-height);
+    width: 100%;
+}
+
+.reviewer-date {
+    font-family: var(--body-base-font-family);
+    font-weight: var(--body-base-font-weight);
+    color: #b3b3b3;
+    font-size: var(--body-base-font-size);
+    line-height: var(--body-base-line-height);
+    width: 100%;
+}
+
+/* Introduction Section */
+.introduction-section {
+    width: 100%;
+    max-width: 1140px;
+    padding: 50px 20px;
+}
+
+.intro-card {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 14px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 71px 150px;
+}
+
+.intro-title {
+    font-family: 'Raleway', Helvetica;
+    font-weight: 700;
+    color: black;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.intro-quote {
+    font-family: var(--body-base-font-family);
+    font-weight: var(--body-base-font-weight);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: var(--body-base-font-size);
+    line-height: var(--body-base-line-height);
+    text-align: center;
+}
+
+.intro-button {
+    height: 48px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    border: none;
+    font-family: 'Raleway', Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.intro-button:hover {
+    background-color: rgba(78, 71, 255, 0.9);
+}
+
+.intro-image {
+    width: 100%;
+    height: 364.77px;
+    margin-top: 8px;
+    object-fit: cover;
+}
+
+/* User Testimonials Section (Contact Form) */
+.user-testimonials-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    padding: 64px 20px;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.form-container {
+    width: 528px;
+}
+
+.form-title {
+    font-family: 'Raleway', Helvetica;
+    font-weight: 700;
+    font-size: 97px;
+    color: black;
+    line-height: 1.1;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.field-label {
+    font-family: 'Inter', Helvetica;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+
+.field-input {
+    height: 70px;
+    padding: 20px 32px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Inter', Helvetica;
+    border-radius: 10px;
+    border: 1px solid #d6ddec;
+    width: 100%;
+    background: white;
+}
+
+.field-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.field-textarea {
+    height: 135px;
+    padding: 20px 32px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Inter', Helvetica;
+    border-radius: 10px;
+    border: 1px solid #d6ddec;
+    resize: none;
+    width: 100%;
+    background: white;
+}
+
+.field-textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.form-submit-button {
+    width: 100%;
+    height: 58px;
+    padding: 19px 101px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Raleway', Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit-button:hover {
+    background-color: rgba(78, 71, 255, 0.9);
+}
+
+/* Hero Section (Footer) */
+.hero-section {
+    width: 100%;
+    padding: 96px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: url('public/bg-pattern.png') center center / cover no-repeat, white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 512px;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.footer-logo {
+    font-family: 'Inter', Helvetica;
+    font-weight: 900;
+    color: var(--primary-color);
+    font-size: 100px;
+    text-align: center;
+    line-height: normal;
+}
+
+.footer-description {
+    font-family: var(--paragraph-font-family);
+    color: #8987a1;
+    text-align: center;
+    line-height: var(--paragraph-line-height);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.nav-link {
+    font-family: var(--paragraph-font-family);
+    color: #8987a1;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+
+    .nav-container,
+    .contact-form-section,
+    .stats-section,
+    .user-testimonials-section {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .intro-card {
+        padding: 50px 50px;
+    }
+
+    .action-card {
+        padding: 40px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 48px;
+    }
+
+    .contact-form-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonials-container {
+        flex-direction: column;
+    }
+
+    .user-testimonials-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .form-container,
+    .form-fields {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .form-title {
+        font-size: 60px;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .intro-card {
+        padding: 30px 20px;
+    }
+
+    .intro-title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+
+    .hero-content {
+        margin-bottom: 80px;
+    }
+
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .contact-title {
+        font-size: 32px;
+    }
+
+    .action-title {
+        font-size: 28px;
+    }
+
+    .stats-title {
+        font-size: 32px;
+    }
+
+    .footer-logo {
+        font-size: 60px;
+    }
+}
