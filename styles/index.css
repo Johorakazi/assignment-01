@@ -529,7 +529,7 @@ stats-container {
     width: 100%;
     padding: 96px 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    background: url('public/bg-pattern.png') center center / cover no-repeat, white;
+    background: url('../Assets/Hero-bg.png') center center / cover no-repeat, white;
 }
 
 .footer-content {
